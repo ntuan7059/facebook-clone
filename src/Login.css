@@ -1,0 +1,21 @@
+.login {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.login > div > img {
+	object-fit: contain;
+	height: 150px;
+	padding: 30px;
+}
+.login button {
+	width: 400px;
+	background-color: hotpink;
+	color: rgb(93, 93, 250);
+	font-weight: 800;
+}
+.login div {
+	display: flex;
+	flex-direction: column;
+}

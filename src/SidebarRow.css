@@ -1,0 +1,17 @@
+.sidebarRow {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+}
+.sidebarRow:hover {
+	background-color: lightgray;
+	border-radius: 100px;
+}
+.sidebarRow h4 {
+	padding-left: 10px;
+}
+.sidebarRow .MuiSvgIcon-root {
+	font-size: x-large;
+	color: hotpink;
+}
